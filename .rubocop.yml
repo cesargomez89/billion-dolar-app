@@ -1,0 +1,20 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - node_modules/**/*
+    - coverage/**/*
+    - bin/*
+
+require:
+  -  rubocop-rails
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Exclude:
+    - db/**/*
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
