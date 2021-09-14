@@ -1,11 +1,14 @@
+# frozen_string_literal: true
+
 class PostStrategy < AppStrategy
-  URL = 'default'.freeze
-  APP_NAME = 'default'.freeze
+  URL = 'default'
+  APP_NAME = 'default'
 
   EXTRACTORS = {
   }.freeze
 
   def initialize(data)
+    super
     @data = data
     @klass = self.class
   end

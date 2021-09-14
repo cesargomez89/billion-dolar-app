@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreatePostJob < ApplicationJob
   retry_on JSON::ParserError
 

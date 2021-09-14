@@ -1,11 +1,14 @@
+# frozen_string_literal: true
+
 class CreatePostsForm < AppForm
   STRATEGIES = {
     facebook: FacebookPostStrategy,
-    twitter:    TwitterPostStrategy,
+    twitter: TwitterPostStrategy,
     instagram: InstagramPostStrategy
   }.freeze
 
   def initialize(delayed: true)
+    super
     @delayed = delayed
   end
 

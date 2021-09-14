@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
 require 'net/http'
 
 class SocialRequestService < AppService
   def initialize(path)
+    super
     @path = URI(path)
   end
 

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 namespace :posts do
   desc 'update posts from social links'
   task update: :environment do

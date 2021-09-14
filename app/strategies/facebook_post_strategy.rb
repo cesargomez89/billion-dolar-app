@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class FacebookPostStrategy < PostStrategy
-  URL = 'https://takehome.io/facebook'.freeze
-  APP_NAME = 'facebook'.freeze
+  URL = 'https://takehome.io/facebook'
+  APP_NAME = 'facebook'
 
   EXTRACTORS = {
     user: 'name',

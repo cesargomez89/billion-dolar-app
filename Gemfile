@@ -24,7 +24,7 @@ end
 
 group :test do
   gem 'simplecov', require: false
-  gem "webmock"
+  gem 'webmock'
 end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

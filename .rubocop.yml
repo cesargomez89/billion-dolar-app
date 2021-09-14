@@ -16,5 +16,13 @@ Metrics/MethodLength:
   Exclude:
     - db/**/*
 
+Layout/LineLength:
+  Exclude:
+    - test/*
+
+Metrics/BlockLength:
+  Exclude:
+    - test/*
+
 Gemspec/RequiredRubyVersion:
   Enabled: false

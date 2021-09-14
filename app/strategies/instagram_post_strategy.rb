@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class InstagramPostStrategy < PostStrategy
-  URL = 'https://takehome.io/instagram'.freeze
-  APP_NAME = 'instagram'.freeze
+  URL = 'https://takehome.io/instagram'
+  APP_NAME = 'instagram'
 
   EXTRACTORS = {
     user: 'username',

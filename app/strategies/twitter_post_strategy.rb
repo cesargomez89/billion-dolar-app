@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class TwitterPostStrategy < PostStrategy
-  URL = 'https://takehome.io/twitter'.freeze
-  APP_NAME = 'twitter'.freeze
+  URL = 'https://takehome.io/twitter'
+  APP_NAME = 'twitter'
 
   EXTRACTORS = {
     user: 'username',
