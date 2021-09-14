@@ -2,6 +2,6 @@
 
 class HomeController < ApplicationController
   def index
-    render json: Post.select(:user, :body, :app).group_by(&:app)
+    render json: Post.select(:id, :user, :body, :app).group_by(&:app)
   end
 end
